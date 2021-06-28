@@ -2,7 +2,7 @@
 
 - [1. learning_python](#1-learning_python)
     - [1.1. 基础知识](#11-基础知识)
-    - [1.2. [python2/3的区别]("./python2_3_diff/README.md")](#12-python23的区别python2_3_diffreadmemd)
+    - [1.2. [python2/3的区别](./python2_3_diff/README.md)](#12-python23的区别python2_3_diffreadmemd)
 
 <!-- /TOC -->
 # 1. learning_python
@@ -52,4 +52,4 @@ Python一切皆对象，用type,id,instance获取对象类型信息
 
 在鸭子类型中，关注点在于对象的行为，能做什么。 关注的是方法、属性。不关注对象
 
-## 1.2. [python2/3的区别]("./python2_3_diff/README.md")
+## 1.2. [python2/3的区别](./python2_3_diff/README.md)
