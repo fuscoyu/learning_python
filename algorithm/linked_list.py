@@ -61,7 +61,6 @@ def main():
     while True:
         try:
             line = lines.next()
-            print(line)
             l1 = stringToListNode(line)
             line = lines.next()
             l2 = stringToListNode(line)

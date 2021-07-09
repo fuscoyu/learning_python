@@ -12,13 +12,21 @@ class Stack:
     def pop(self):
         return self.items.pop()
 
+    def __iter__(self):
+        res = []
+        for i in self.items:
+            res.append(i)
+ 
+        for i in reversed(res):
+            yield i
 
 def test_stack():
     s = Stack()
     s.push(1)
     s.push(2)
     s.push(3)
-    print(s.pop())
-    print(s.pop())
-    print(s.pop())
+    print(dir(s))
+    for i in s:
+        print(i)
 test_stack()
+
