@@ -9,5 +9,4 @@ print("import gevent socket...")
 
 from gevent import socket
 
-print(socket.socket)
 
